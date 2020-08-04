@@ -31,12 +31,12 @@
 [![alt text][6.1]][6]
 
 
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/facebook-48x48.png
-[3.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/linkedin-48x48.png
-[4.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/instagram-48x48.png
-[5.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/email-48x48.png
-[6.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/stackoverflow-48x48.png
+[1.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/twitter-24x24.png
+[2.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/facebook-24x24.png
+[3.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/linkedin-24x24.png
+[4.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/instagram-24x24.png
+[5.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/email-24x24.png
+[6.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/stackoverflow-24x24.png
 
 [1]: http://www.twitter.com/Anshulpandya37
 [2]: http://www.facebook.com/anshul.pandaya
