@@ -11,7 +11,7 @@
 <br />
 
 ## Wheel of Domain Areas
-
+![alt txt](https://drive.google.com/file/d/1_-y47E3RzKqbMQ5xcfwxiOvSKe2oreao/view?usp=sharing)
 
 ## Languages, Libraries and Tools
 <img align="left" alt="" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
