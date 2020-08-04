@@ -22,8 +22,8 @@
 <br />
 
 ## How to reach me
-<img align="left" alt="anshul.pandaya | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
-<img align="left" alt="Anshulpandya37 | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+<img align="left" alt="anshul.pandaya | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
+<img align="left" alt="Anshulpandya37 | Twitter" width="22px" src="https://twitter.com/Anshulpandya37" />
 <img align="left" alt="anshul-pandya | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> 
 <img align="left" alt="anshul_pandya_ | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
 
