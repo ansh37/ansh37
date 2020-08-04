@@ -27,18 +27,23 @@
 [![alt text][2.1]][2]
 [![alt text][3.1]][3]
 [![alt text][4.1]][4]
+[![alt text][5.1]][5]
+[![alt text][6.1]][6]
 
 
 [1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
-[3.1]: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linekdin/linkedin.png
-[4.1]: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/instagram/instagram.png
-
+[2.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/facebook-48x48.png
+[3.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/linkedin-48x48.png
+[4.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/instagram-48x48.png
+[5.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/email-48x48.png
+[6.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/stackoverflow-48x48.png
 
 [1]: http://www.twitter.com/Anshulpandya37
 [2]: http://www.facebook.com/anshul.pandaya
 [3]: http://www.linkedin.com/anshul-pandya
 [4]: http://www.instagram.com/anshul_pandya_
+[5]: ansh.pandya.37@gmail.com
+[6]: https://stackoverflow.com/users/7447236/anshul-pandya
 
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
