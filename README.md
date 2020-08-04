@@ -40,7 +40,6 @@
 
 [1]: https://twitter.com/Anshulpandya37
 [2]: https://www.facebook.com/anshul.pandaya
-[3]: https://www.linkedin.com/in/anshul-pandya/
 [6]: http://www.github.com/ansh73
 [<img align="left" alt="anshul-pandya | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="anshul_pandya_ | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
