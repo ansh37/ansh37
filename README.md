@@ -5,11 +5,13 @@
 - 🔭 Self taught machine learning enthusiasts.
 - 🌱 I’m currently learning Data Analysis Tools and Deep Learning Concepts.
 - 👯 I’m looking to collaborate with other creators.
-- 💬 Ask me about Computer Science, Machine Learning, C++ & Python Programming.
 - 📈 2020 GOALS: As much as can do better research in the area of ML.
 - ⚡ Favourite time wasters: Cooking 🍕, Meme Editing 😄, Swimming 🏊, Gaming🎮.
 
 <br />
+
+## Wheel of Domain Areas
+
 
 ## Languages, Libraries and Tools
 <img align="left" alt="" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
