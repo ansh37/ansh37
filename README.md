@@ -11,9 +11,9 @@
 
 
 
-# Languages and Tools
+## Languages and Tools
 
-# How to reach me
+## How to reach me
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
@@ -45,5 +45,7 @@
 <img 
     align = "left"
     alt = "Anshul's Github Stats"
+    src="https://github-readme-stats.vercel.app/api?username=ansh37&show_icons=true&hide_border=true"
+    />
     
 
