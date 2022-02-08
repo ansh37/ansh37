@@ -1,17 +1,16 @@
-### Hi there, I'm Anshul - Engineer, and Machine Learning Enthusiast 👋
+### Hi there, I'm Anshul - Engineer, Programmer, and Machine Learning Enthusiast 👋
 
-✨ I am new to Github, AIM: Contribute more to open source projects.
+✨  AIM: Contribute more to open source projects.
 
-- 🔭 Self taught machine learning enthusiasts.
-- 🌱 I’m currently learning Data Analysis Tools and Deep Learning Concepts.
+- 🔭 System Engineer (Research & Innovator) at TCS, Programmer & machine learning enthusiasts.
+- 🌱 Favourite Tools & Techonolgy : Python, C++, C, Java, Numpy, Keras, Matplotlib, Django, Hibernate 
 - 👯 I’m looking to collaborate with other creators.
-- 📈 2020 GOALS: As much as can do better research in the area of ML.
-- ⚡ Favourite time wasters: Cooking 🍕, Meme Editing 😄, Swimming 🏊, Gaming🎮.
+- ⚡ Favourite time wasters: Cooking 🍕, Meme Editing 😄, Swimming 🏊, Mobile Gaming🎮.
 
 <br />
 
-## Wheel of Domain Areas
-![](https://github.com/ansh37/ansh37/blob/master/wheel.JPG?raw=True)
+## Profile Summary
+A result-oriented individual with the System Engineer at TCS with an MTech in Computer Engineering from SVNIT, Surat. An individual with a keen interest in Software programs, and Artificial Intelligence. Possessing good interpersonal and analytical skills, who wish to use technical knowledge catering to the needs of the company and customers. TNP Coordinator who successfully motivated a group of young developers into getting the highest accolades for their recent endeavours. Good experience in Python, ML, and DS & Algorithm. Main interests lie in Machine Learning and Computer Vision. Through work, constantly improve the customer’s experience, through an analysis according to their needs, offering services while looking for more efficient solutions using tools and skills by optimal teamwork. Want to gain work experience and develop my skills, showing initiative and teamwork.
 
 <br />
 
@@ -26,27 +25,18 @@
 
 ## How to reach me
 
-[![alt text][1.1]][1]
 [![alt text][2.1]][2]
 [![alt text][3.1]][3]
-[![alt text][4.1]][4]
 [![alt text][5.1]][5]
-[![alt text][6.1]][6]
 
 
-[1.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/twitter-24x24.png
 [2.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/facebook-24x24.png
 [3.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/linkedin-24x24.png
-[4.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/instagram-24x24.png
 [5.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/email-24x24.png
-[6.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/stackoverflow-24x24.png
 
-[1]: http://www.twitter.com/Anshulpandya37
 [2]: http://www.facebook.com/anshul.pandaya
 [3]: http://www.linkedin.com/anshul-pandya
-[4]: http://www.instagram.com/anshul_pandya_
 [5]: ansh.pandya.37@gmail.com
-[6]: https://stackoverflow.com/users/7447236/anshul-pandya
 
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
