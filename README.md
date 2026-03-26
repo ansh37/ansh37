@@ -1,53 +1,42 @@
-### Hi there, I'm Anshul - Engineer, Programmer, and Machine Learning Enthusiast 👋
+### Hi there, I'm Anshul — Software Development Engineer & Backend Architect 👋
 
-✨  AIM: Contribute more to open source projects.
+✨ **AIM:** Building scalable, highly available systems and contributing to the open-source community.
 
-- 🔭 System Engineer (Research & Innovator) at TCS, Programmer & machine learning enthusiasts.
-- 🌱 Favourite Tools & Techonolgy : Python, C++, C, Java, Numpy, Keras, Matplotlib, Django, Hibernate 
-- 👯 I’m looking to collaborate with other creators.
-- ⚡ Favourite time wasters: Cooking 🍕, Meme Editing 😄, Swimming 🏊, Mobile Gaming🎮.
-
-<br />
-
-## Profile Summary
-A result-oriented individual with the System Engineer at TCS with an MTech in Computer Engineering from SVNIT, Surat. An individual with a keen interest in Software programs, and Artificial Intelligence. Possessing good interpersonal and analytical skills, who wish to use technical knowledge catering to the needs of the company and customers. TNP Coordinator who successfully motivated a group of young developers into getting the highest accolades for their recent endeavours. Good experience in Python, ML, and DS & Algorithm. Main interests lie in Machine Learning and Computer Vision. Through work, constantly improve the customer’s experience, through an analysis according to their needs, offering services while looking for more efficient solutions using tools and skills by optimal teamwork. Want to gain work experience and develop my skills, showing initiative and teamwork.
+- 🔭 Currently engineering distributed backend systems at **Amazon (Alexa Voice Services)**.
+- 🌱 Mastering **Advanced System Design**, scalable cloud architectures, and algorithmic problem-solving.
+- 👯 Looking to collaborate on backend tools, open-source system infrastructure, and technical writing.
+- 📝 Currently building my personal portfolio and technical blog.
+- ⚡ Outside of code: Fitness & content creation 💪 (down 25kg and counting!), Cooking 🍳, and Meme Editing 😄.
 
 <br />
 
-## Languages, Libraries and Tools
-<img align="left" alt="" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
-<img align="left" alt="" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" />
-<img align="left" alt="" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/C/c.png" />
-<img align="left" alt="" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
+## 🚀 Profile Summary
+Results-oriented Software Development Engineer with roughly 5 years of industry experience, specializing in designing and scaling distributed backend systems. Currently at Amazon, I engineer cloud-backed pipelines and orchestration systems for Alexa Voice Services that handle millions of interactions. 
 
-<br />
-<br />
-
-## How to reach me
-
-[![alt text][2.1]][2]
-[![alt text][3.1]][3]
-[![alt text][5.1]][5]
-
-
-[2.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/facebook-24x24.png
-[3.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/linkedin-24x24.png
-[5.1]: https://github.com/paulrobertlloyd/socialmediaicons/blob/main/email-24x24.png
-
-[2]: http://www.facebook.com/anshul.pandaya
-[3]: http://www.linkedin.com/anshul-pandya
-[5]: ansh.pandya.37@gmail.com
-
-
-<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
+Holding an M.Tech in Computer Engineering from SVNIT (99.81 GATE Percentile), my core expertise lies in **Python**, **C++**, and architecting robust, data-intensive applications. I am deeply passionate about algorithmic efficiency, system design, and building resilient infrastructure. Whether I'm designing a transport-agnostic Hub-Spoke architecture or writing for my technical blog, I focus on delivering optimal, customer-centric solutions. 
 
 <br />
 
-## Performance
-<img 
-    align = "left"
-    alt = "Anshul's Github Stats"
-    src="https://github-readme-stats.vercel.app/api?username=ansh37&show_icons=true&hide_border=true"
-    />
-    
+## 🛠️ Languages, Libraries & Tools
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![System Design](https://img.shields.io/badge/System_Design-FF6F00?style=for-the-badge&logo=codeforces&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+<br />
+
+## 📫 How to reach me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/anshul-pandya)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ansh.pandya.37@gmail.com)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](http://www.facebook.com/anshul.pandaya)
+
+<br />
+
+## 📈 GitHub Performance
+<a href="https://github.com/ansh37">
+  <img align="left" alt="Anshul's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ansh37&show_icons=true&hide_border=true&theme=radical" />
+</a>
+<br /><br /><br /><br /><br /><br /><br /><br />
