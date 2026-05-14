@@ -43,7 +43,7 @@ graph TD
 
 - Solution: Lock Striping (Sharding) : To solve memory corruption without sacrificing throughput, we use Lock Striping (the architecture powering high-performance structures like ConcurrentHashMap). We divide the cache into N independent shards, each with its own Lock, Hash Map, and DLL. Threads only block each other if their keys hash to the exact same shard.
 
-## 3. Code
+## 3.1 Python Code
 ```py
 import time
 import threading
@@ -133,6 +133,80 @@ class ShardedConcurrentLRUCache:
 
     def put(self, key: str, value: Any, ttl_seconds: int = 0):
         self._get_shard(key).put(key, value, ttl_seconds)
+```
+## 3.2 Cpp code with smart pointers for ownership and automatic memory management
+```cpp
+/**
+Distributed LRU Cache Implementation
+**/
+#include <vector>
+#include <unordered_map>
+#include <list>
+
+using namespace std;
+
+class LRUCache {
+    int capacity;
+    list<pair<int, int>> dll;
+    mutable mutex mtx;
+    unordered_map<int, list<pair<int, int>>::iterator> lruCache;
+
+    public:
+    LRUCache(int cap): capacity(cap) {
+    }
+
+    int get(int key) {
+        lock_guard<mutex> lock(mtx);
+        if (lruCache.find(key) == lruCache.end()) {
+            return -1;
+        }
+        
+        int value = lruCache[key]->second;
+        dll.erase(lruCache[key]);
+
+        dll.push_front({key, value});
+        lruCache[key] = dll.begin();
+        return value;
+    }
+
+    bool put (int key, int value) {
+        lock_guard<mutex> lock(mtx);
+        if (lruCache.find(key) != lruCache.end()) {
+            dll.erase(lruCache[key]);
+        }
+        dll.push_front({key, value});
+        lruCache[key] = dll.begin();
+
+        if (lruCache.size() > this->capacity) {
+            int key = dll.back().first;
+            dll.pop_back();
+            lruCache.erase(key);
+        }
+    }
+};
+
+class ShardedLRUCache {
+    int numOfShards;
+    vector<unique_ptr<LRUCache>> cache;
+    int capacityPerShard;
+    public:
+
+    ShardedLRUCache (int capacity, int cps) : numOfShards(capacity), capacityPerShard(cps) {
+        for (int i = 0; i< numOfShards; ++i) {
+            cache.push_back(make_unique<LRUCache>(capacityPerShard));
+        }
+    }
+
+    int get(int key) {
+        int shard = key % numOfShards;
+        return cache[shard]->get(key);
+    }
+
+    bool put(int key, int value) {
+        int shard = key % numOfShards;
+        return cache[shard]->put(key, value);  
+    }
+};
 ```
 ## 4. Deep Dives & Edge Cases
 Q: How do we route 1TB of data across multiple servers without crashing the database if a node dies?
