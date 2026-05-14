@@ -182,6 +182,7 @@ class LRUCache {
             dll.pop_back();
             lruCache.erase(key);
         }
+        return true;
     }
 };
 
@@ -199,6 +200,7 @@ class ShardedLRUCache {
 
     int get(int key) {
         int shard = key % numOfShards;
+        // size_t shard_idx = std::hash<int>{}(key) % numOfShards;
         return cache[shard]->get(key);
     }
 
