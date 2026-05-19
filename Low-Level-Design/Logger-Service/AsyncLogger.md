@@ -199,7 +199,8 @@ class AsyncLogger {
 ```
 
 ### Execution Driver & Multithreading Test
-```// ==========================================
+```cpp
+// ==========================================
 // Execution Driver
 // ==========================================
 int main() {
