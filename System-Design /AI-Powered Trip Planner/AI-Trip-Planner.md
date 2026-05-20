@@ -3,7 +3,7 @@
 ![Level](https://img.shields.io/badge/Level-Staff%20%2F%20L5-blue)
 ![Topic](https://img.shields.io/badge/Topic-System%20Design%20%7C%20GenAI-success)
 
-## 📖 Overview
+## Overview
 This document outlines the architecture for an AI-powered Trip Planner Agent, designed to handle 10 million Daily Active Users (DAU). The system allows users to interact with a conversational AI to plan their trip, check real-time park data, and autonomously book tickets and hotels.
 
 The primary engineering challenge is bridging the gap between **probabilistic LLM generation** (which requires high availability and low latency) and **deterministic booking systems** (which require strict ACID consistency).
