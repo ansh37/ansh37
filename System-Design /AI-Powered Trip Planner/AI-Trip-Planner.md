@@ -19,7 +19,7 @@ The primary engineering challenge is bridging the gap between **probabilistic LL
 * **Human Handoff:** Seamless routing to a human support agent if the bot fails or the user requests it.
 
 ### Non-Functional Requirements (NFRs)
-* **The Staff-Level NFR Split:**
+* **NFR Split:**
   * **Chat/Search Path:** High Availability (HA) and Low Latency (`< 1s` Time-to-First-Token). Read-heavy.
   * **Booking Path:** Strict Consistency (ACID). We cannot overbook ride capacity or hotel rooms.
 * **Scale:** 10 Million Daily Active Users (DAU).
@@ -51,7 +51,7 @@ The primary engineering challenge is bridging the gap between **probabilistic LL
 ## 4. High-Level Design (HLD)
 <img width="2639" height="1148" alt="image" src="https://github.com/user-attachments/assets/c1081036-2343-45f4-9a09-930fec52b9db" />
 
-## 5. Staff-Level Deep Dives
+## 5. Deep Dives
 ### Deep Dive 1: Brand Safety & Output Guardrails
 LLMs hallucinate. For a family-friendly brand, toxic or incorrect output is a critical incident.
 
