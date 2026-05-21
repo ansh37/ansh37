@@ -132,7 +132,7 @@ The biggest issue in custom control planes is "Drift"—the Database says the re
 
 - The Solution: A decoupled Reconciliation Worker runs on an hourly cron. It queries the AWS API to get the true state of the world and compares it against the Control Plane DB. If drift is detected, it flags the WorkflowExecution as DRIFTED and fires an SNS alert to the owning team to either re-provision or update their JSON template.
 
-- ## 5. Detailed Data Flow (Orchestration & Saga Pattern)
+## 5. Detailed Data Flow (Orchestration & Saga Pattern)
 
 This section details the lifecycle of a resource provisioning request, highlighting how our Stateful Orchestrator (Temporal or AWS Step Functions) manages dependency execution, handles worker failures, and executes compensating transactions.
 
