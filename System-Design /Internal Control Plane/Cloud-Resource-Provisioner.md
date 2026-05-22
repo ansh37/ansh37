@@ -36,68 +36,8 @@ This document outlines the architecture for an internal Control Plane designed t
 
 ## 3. High-Level Design (HLD)
 
-```mermaid
-graph TD
-    subgraph Client_Layer
-        Teams["Internal Teams<br/>(JSON Templates)"]
-    end
+<img width="2151" height="661" alt="image" src="https://github.com/user-attachments/assets/514b0ea8-cb83-47f0-b164-de3d06f928e5" />
 
-    subgraph Global_Routing
-        Route53["Global DNS / Route53"]
-        Auth["AuthZ & Rate Limiting"]
-    end
-
-    subgraph Regional_Control_Plane ["Regional Control Plane (Cell Architecture)"]
-        API["API Gateway"]
-        ProvSVC["Provisioning Service<br/>(DAG Compiler & Idempotency)"]
-        DB[("Control Plane DB<br/>(PostgreSQL - State)")]
-        Cache[("Redis<br/>(Idempotency Keys)")]
-        
-        %% Workflow Engine
-        Orchestrator["Workflow Orchestrator<br/>(State Machine / Saga Engine)"]
-        TaskQueue{"SQS Task Queue"}
-        DLQ{"Dead Letter Queue (DLQ)"}
-        
-        %% Workers
-        CreationWorker["Resource Creation Worker<br/>(AWS SDK)"]
-        ReconWorker["Drift Reconciliation Worker"]
-    end
-
-    subgraph AWS_Cloud_Data_Plane ["AWS Target Environments"]
-        AccountA["Team A AWS Account"]
-        AccountB["Team B AWS Account"]
-    end
-
-    %% API Flow
-    Teams -->|"1. POST /provision"| Route53
-    Route53 --> Auth
-    Auth --> API
-    API --> ProvSVC
-    ProvSVC <-->|"2. Check Hash"| Cache
-    ProvSVC -->|"3. Save DAG State"| DB
-    ProvSVC -->|"4. Trigger Workflow"| Orchestrator
-    
-    %% Orchestration Flow
-    Orchestrator <-->|"5. Poll/Update Node State"| DB
-    Orchestrator -->|"6. Queue Ready Nodes"| TaskQueue
-    TaskQueue -->|"7. Consume"| CreationWorker
-    CreationWorker -->|"8. AssumeRole & Create"| AccountA
-    CreationWorker -->|"9. Async Callback (Success/Fail)"| Orchestrator
-    CreationWorker -.->|"Failed > MaxRetries"| DLQ
-    
-    %% Day 2 Ops
-    ReconWorker <-->|"Cron: Fetch Actual State"| AccountA
-    ReconWorker <-->|"Compare vs Expected"| DB
-    
-    %% Styling
-    classDef storage fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
-    classDef core fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
-    classDef broker fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px;
-    
-    class DB,Cache storage;
-    class ProvSVC,Orchestrator,CreationWorker,ReconWorker core;
-    class TaskQueue,DLQ broker;
-```
 
 ## 4. Deep Dives
 ### Deep Dive 1: The DAG Execution Engine (Beyond simple Queues)
