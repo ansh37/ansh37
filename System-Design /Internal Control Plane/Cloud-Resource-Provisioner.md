@@ -36,8 +36,7 @@ This document outlines the architecture for an internal Control Plane designed t
 
 ## 3. High-Level Design (HLD)
 
-<img width="2151" height="661" alt="image" src="https://github.com/user-attachments/assets/514b0ea8-cb83-47f0-b164-de3d06f928e5" />
-
+<img width="2151" height="661" alt="image" src="https://github.com/user-attachments/assets/1526822b-6ada-4848-a9dc-a3fdaa5f2b7f" />
 
 ## 4. Deep Dives
 ### Deep Dive 1: The DAG Execution Engine (Beyond simple Queues)
