@@ -19,21 +19,9 @@ This document outlines the end-to-end design of a highly available distributed c
 
 ### Architecture Diagram
 
-```mermaid
-graph TD
-    App[Application Servers / Cache Clients] -->|Get/Set + Key| Router[Cache Proxy / Consistent Hashing Ring]
-    
-    Router -->|Hash falls in Range A| NodeA[(Cache Node A)]
-    Router -->|Hash falls in Range B| NodeB[(Cache Node B)]
-    Router -->|Hash falls in Range C| NodeC[(Cache Node C)]
-    
-    NodeA -.->|Async Replication| ReplicaA[(Replica A)]
-    NodeB -.->|Async Replication| ReplicaB[(Replica B)]
-    NodeC -.->|Async Replication| ReplicaC[(Replica C)]
-    
-    App -.->|Cache Miss - Fetch Data| DB[(Primary Database)]
-    DB -.->|Write-Around / Popoulate| App
-```
+<img width="1345" height="718" alt="image" src="https://github.com/user-attachments/assets/f0773a8f-ee58-4d9b-a925-32c245e20d99" />
+
+
 ## 2. Low-Level Design (LLD): The Concurrency Trap
 - To achieve O(1) time complexity for LRU operations, the standard approach combines a Hash Map and a Doubly Linked List (DLL).
 - However, in a highly concurrent environment (e.g., a 32-core machine processing thousands of threads), a naive implementation fails:
