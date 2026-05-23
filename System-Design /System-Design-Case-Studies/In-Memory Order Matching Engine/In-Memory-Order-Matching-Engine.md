@@ -38,43 +38,8 @@ Design a high-frequency Order Matching Engine capable of powering a cryptocurren
 
 ## 5. High-Level Design (HLD)
 
-```mermaid
-graph TD
-    subgraph Client_Plane
-        Mobile["Client Applications"]
-    end
+<img width="1757" height="792" alt="image" src="https://github.com/user-attachments/assets/226a2aad-cd15-455a-b60b-1db6432fc2bf" />
 
-    subgraph Edge_Plane
-        Gateway["API / WebSocket Gateway"]
-    end
-
-    subgraph Durability_Plane
-        Sequencer{"Replicated Sequencer<br/>(Aeron / Kafka Ring Buffer)"}
-    end
-
-    subgraph Execution_Plane
-        Engine["Matching Engine<br/>(Single-Threaded RAM)"]
-        OrderBook["Order Book Data Structure<br/>(Red-Black Trees + Hash Maps)"]
-    end
-
-    subgraph Persistence_Plane
-        Postgres[("Relational DB<br/>(Trade Ledger & Settlement)")]
-        MarketData["Market Data Publisher<br/>(Redis Pub/Sub)"]
-        Snapshots[("AWS S3<br/>(5-Minute Memory Snapshots)")]
-    end
-
-    %% Flow
-    Mobile -->|1. Place Order| Gateway
-    Gateway -->|2. Append to Log| Sequencer
-    Sequencer -->|3. Consume Next Order| Engine
-    Engine <-->|4. Match & Update State| OrderBook
-    
-    %% Outputs
-    Engine -->|5a. Async Persist Trade| Postgres
-    Engine -->|5b. Stream Book Updates| MarketData
-    Engine -.->|5c. Async Snapshot| Snapshots
-    MarketData -.->|6. Push to Clients| Gateway
-```
 
 ## 6. Detailed Data Flow (The LMAX Architecture)
 
