@@ -63,7 +63,7 @@ The architecture decouples the highly concurrent **Read Path** from the strict, 
 * A dedicated worker consumes the event and explicitly deletes the key from the **L2 Redis Cluster**.
 * Simultaneously, all **800 Application Servers** are subscribed to the PubSub bus. They receive the event and instantly delete the key from their **L1 Local Memory**.
 
-```
+```plantuml
 @startuml
 !theme plain
 skinparam componentStyle rectangle
