@@ -1,42 +1,32 @@
-### Hi there, I'm Anshul — Software Development Engineer & Backend Architect 👋
+# Anshul Pandya
 
-✨ **AIM:** Building scalable, highly available systems and contributing to the open-source community.
+I build systems that are expected to keep working when everything else starts failing.
 
-- 🔭 Currently engineering distributed backend systems at **Amazon (Alexa Voice Services)**.
-- 🌱 Mastering **Advanced System Design**, scalable cloud architectures, and algorithmic problem-solving.
-- 👯 Looking to collaborate on backend tools, open-source system infrastructure, and technical writing.
-- 📝 Currently building my personal portfolio and technical blog.
-- ⚡ Outside of code: Fitness & content creation 💪 (down 25kg and counting!), Cooking 🍳, and Meme Editing 😄.
+Senior Software Engineer at **Cohesity**, working on large-scale data systems across backup, restore, resilience, and security.
 
-<br />
+Previously at **Amazon**, building distributed systems for Alexa.
 
-## 🚀 Profile Summary
-Results-oriented Software Development Engineer with roughly 5 years of industry experience, specializing in designing and scaling distributed backend systems. Currently at Amazon, I engineer cloud-backed pipelines and orchestration systems for Alexa Voice Services that handle millions of interactions. 
+I created this GitHub to document things I have learned, used in production, broken, fixed, and understood the hard way.
 
-Holding an M.Tech in Computer Engineering from SVNIT (99.81 GATE Percentile), my core expertise lies in **Python**, **C++**, and architecting robust, data-intensive applications. I am deeply passionate about algorithmic efficiency, system design, and building resilient infrastructure. Whether I'm designing a transport-agnostic Hub-Spoke architecture or writing for my technical blog, I focus on delivering optimal, customer-centric solutions. 
+You will find practical notes, code examples, system design breakdowns, backend engineering, DSA, and lessons from real-world systems.
 
-<br />
+Some of this may help others.
+All of it helps me think better.
 
-## 🛠️ Languages, Libraries & Tools
+---
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![System Design](https://img.shields.io/badge/System_Design-FF6F00?style=for-the-badge&logo=codeforces&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### Mostly working with
 
-<br />
+`C++` `Python` `Distributed Systems` `AI on Distributed Systems` `Backend Engineering` `AWS` `System Design` `Low Level Mechanics`
 
-## 📫 How to reach me
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/anshul-pandya)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ansh.pandya.37@gmail.com)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](http://www.facebook.com/anshul.pandaya)
+### Outside engineering
 
-<br />
+Lifting weights, cooking, creating content, and occasionally turning bugs into memes.
 
-## 📈 GitHub Performance
-<a href="https://github.com/ansh37">
-  <img align="left" alt="Anshul's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ansh37&show_icons=true&hide_border=true&theme=radical" />
-</a>
-<br /><br /><br /><br /><br /><br /><br /><br />
+---
+
+### Connect
+
+[LinkedIn](https://www.linkedin.com/in/anshul-pandya/) · [Email](mailto:ansh.pandya.37@gmail.com)
